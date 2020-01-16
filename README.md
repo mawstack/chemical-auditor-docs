@@ -1,1 +1,114 @@
-Chemical Auditor Documentation
+# Chemical Auditor Documentation
+
+## Website Description
+SSS Strawberries at Lot 2 Rosedale Road Oakwood QLD 4670 is the client for this application.
+
+### Purpose
+As a strawberry farm there would be use of chemicals to help with the growth of crops and control of pests. Every time a chemical is used on the farm, an audit trail is required. This application is designed so that chemical distributing farm workers can easily record such information - for instance windspeed/weather at distribution time, or quantity of distributed chemicals. Thereafter, such day-to-day records can be compiled to produce audit reports, comprising a designated timeframes' collection of reports, and produced either at the users request, or at a designated timed interval (for example, via a monthly email). Thus the purpose is to enable workers to track chemical usage and generate reports for auditing requirements.
+
+### Features
+
+- Login system distinguishing regular employee/administrator permissions
+- Report generation, when requested/at timed intervals
+- Chemical Tracking information - Weather, GPS/manual location, time/date, chemical information, reason for use and amount used etc.
+- Attach photographs to reports
+- Secure storage for all information
+
+  #### Flex-goal Features
+
+  - Admins can approve regular employee entries/edits
+  - Progressive Web App
+
+### Target Audience
+
+- Farm employees - creating individual records in the field
+- Farm managers - generating full reports in the office, comprising a designated timeframes' worth of employee records
+
+### Tech Stack
+
+- AWS - Image upload storage
+- MongoDB - User information & record storage
+- express - Back-end server
+- express-session - session storage functionality
+- connect-mongo - session data store functionaliy
+- lodash - general helper methods 
+- nodemon - Live-server monitoring
+- React - Front-end view rendering & geolocation services
+- Node - Database
+- Heroku - deployment of webserver 
+- MongoDB - User information & record storage
+- Cloud Atlas - MongoDB hosting
+- body-parser - simplified request bodies
+- jest - testing
+- cors - cross origin request support
+- mongoose - create model schemas and query mongoDB
+- dotenv - access .env variables
+- mongoose-bcrypt - encrypt passwords in mongoDB
+- celebrate - user input validation
+- jwt - json web token functionality
+- passport - authenticate requests
+- axios - make promise AJAX requests
+- cron - automatic monthly reports
+- react-dom - connects React to the browser DOM
+- react-router-dom - enables React single-page refresh routing
+- react-redux - connect React and Redux
+- redux - internal data functionality
+- Material UI - styling framework
+- Open Weather - api for weather information
+- Climacell - api for weather information
+
+## Data flow diagram
+![data flow diagram](./Data_Flow.png)
+
+## Application Architecture Diagram
+![application architecture diagram](./Application_Architecture_Diagram.png)
+
+## User Stories
+### As a seasonal worker, I need to easily understand and use the application with little extra training.
+- As Hamish the seasonal worker, I need to be able to easily approach and understand the application, ensuring I can fulfil my job roles with little extra training.
+- As John the seasonal worker, I would like to have a logical layout with intuitive logos, to enable me to fulfil my role without a complicated use of the English language.
+
+### As a full-time employee, I need to be able to review information quickly and plan my daily work efficiently.
+- As full-time employee Garret, I would like to quickly attain weather information from the application to plan my daily work schedule.
+- As Garret, I need to have quick access to recent entries to reduce double-handling and ensure my work is completed.
+- As full-time employee Rebecca, I would like a more efficient means of creating records than I have at present, cutting down office admin and ensuring accuracy during busy periods.
+- As Rebecca, I would like to be able to receive feedback from my managers regarding my record entries.
+
+### As a farm manager, I need to be able to keep track of data entries, and easily generate reports to meet auditing requirements.
+- As Vicky the farm manager, I need to be able to easily generate an up-to-date reports as required by auditors.
+- As Vicky, I need to be able to view recent entries, and view each individual entries details if required.
+- As Vicky, I need to be able to edit reports if data is entered incorrectly.
+- As Michael, I need to be able to leave feedback and notes within entries if required.
+- ensure sensitive data (trade data) is stored safely & securely
+- As Michael, I want to ensure the farms sensitive trade data is stored safely and securely.
+
+### As an auditor, I need reports to be legible, easily understood, and to adhere to the legal requirements of the audit.
+- As an auditor, I need to be able to easily read and understand the new format of audit reports, with them following the current design pattern to ensure confusion is minimized.
+- As an auditor, I need to be sure all legal requirements are met regarding information integrity.
+
+## Wireframes
+### Dashboard
+![dashboard mobile wireframe](./Wireframes/dashboard-mobile.png)
+![dashboard tablet wireframe](./Wireframes/dashboard-tablet.png)
+![dashboard desktop wireframe](./Wireframes/dashboard-desk.png)
+
+### Login
+![login mobile wireframe](./Wireframes/login-mobile.png)
+![login tablet wireframe](./Wireframes/login-tablet.png)
+![login desktop wireframe](./Wireframes/login-desk.png)
+
+### New Entry
+![new entry page mobile wireframe](./Wireframes/newEntry-mobile.png)
+![new entry page tablet wireframe](./Wireframes/newEntry-tablet.png)
+![new entry page desktop wireframe](./Wireframes/newEntry-desk.png)
+
+### View Entry
+![view entry page mobile wireframe](./Wireframes/viewEntry-mobile.png)
+![view entry page tablet wireframe](./Wireframes/viewEntry-tablet.png)
+![view entry page desktop wireframe](./Wireframes/viewEntry-desk.png)
+
+## Trello board screenshots
+![trello board screenshot 1](./Screenshots/1.PNG)
+![trello board screenshot 2](./Screenshots/2.PNG)
+![trello board screenshot 3](./Screenshots/3.PNG)
+![trello board screenshot 4](./Screenshots/4.PNG)
