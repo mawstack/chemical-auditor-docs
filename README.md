@@ -43,38 +43,36 @@ The benefits this application could bring to the farm include a streamlining of 
 - Farm employees - creating individual records in the field
 - Farm managers - generating full reports in the office, comprising a designated timeframes' worth of employee records
 
-### Tech Stack
+### Proposed Tech Stack
 
-- AWS - Image upload storage
-- MongoDB - User information & record storage
+- axios - make promise AJAX requests
+- AWS S3 - Image upload storage
+- body-parser - simplified request bodies
+- celebrate - user input validation
+- Climacell - api for weather information
+- Cloud Atlas - MongoDB hosting
+- connect-mongo - session data store functionality
+- cors - cross origin request support
+- cron - automatic monthly reports
+- dotenv - access .env variables
 - express - Back-end server
 - express-session - session storage functionality
-- connect-mongo - session data store functionaliy
-- lodash - general helper methods
-- nodemon - Live-server monitoring
-- React - Front-end view rendering & geolocation services
-- Node - Database
 - Heroku - deployment of webserver
-- MongoDB - User information & record storage
-- Cloud Atlas - MongoDB hosting
-- body-parser - simplified request bodies
 - jest - testing
-- cors - cross origin request support
-- mongoose - create model schemas and query mongoDB
-- dotenv - access .env variables
-- mongoose-bcrypt - encrypt passwords in mongoDB
-- celebrate - user input validation
 - jwt - json web token functionality
-- passport - authenticate requests
-- axios - make promise AJAX requests
-- cron - automatic monthly reports
-- react-dom - connects React to the browser DOM
-- react-router-dom - enables React single-page refresh routing
-- react-redux - connect React and Redux
-- redux - internal data functionality
-- Material UI - styling framework
+- lodash - general helper methods
+- MongoDB - User information & record storage
+- mongoose - create model schemas and query mongoDB
+- mongoose-bcrypt - encrypt passwords in mongoDB
+- Node - Database
+- nodemon - Live-server monitoring
 - Open Weather - api for weather information
-- Climacell - api for weather information
+- passport - authenticate requests
+- React - Front-end view rendering & geolocation services
+- react-dom - connects React to the browser DOM
+- react-redux - connect React and Redux
+- react-router-dom - enables React single-page refresh routing
+- redux - internal data functionality
 
 #
 
