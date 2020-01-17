@@ -14,53 +14,57 @@ The benefits this application could bring to the farm include a streamlining of 
 
 ### Features
 
-- Login system distinguishing regular employee/administrator permissions
-- Report generation, when requested/at timed intervals
-- Chemical Tracking information - Weather, GPS/manual location, time/date, chemical information, reason for use and amount used etc.
-- Attach photographs to reports
-- Secure storage for all information
+#### User Requirements
 
-#### Flex-goal Features
+- Login system distinguishing regular employee/administrator permissions, utilising email & password.
+- Admin accounts with ability to create, edit and delete user accounts, as well as record, edit, delete and export the records/entries.
 
-  - Admins can approve regular employee entries/edits
-  - Progressive Web App
+#### Functional Requirements
 
-### Target Audience
+- Mobile (Android/IOS) and Tablet interface.
+- Offline capabilities/Progressive Web App (Stretch Goal).
 
-- Farm employees - creating individual records in the field
-- Farm managers - generating full reports in the office, comprising a designated timeframes' worth of employee records
+#### System Features
+
+- Full CRUD report resources.
+- Generate audit log using reports.
+- Print/export audit log to PDF / .CSV.
+- Take/delete photos of chemicals.
+- Add/edit notes on reports.
+- Add/edit/delete Farm Locations (bays recorded as letters, A/B/C etc.)
+- A record of audit logs must be backed up in event of a system failure.
 
 ### Proposed Tech Stack
 
 - AWS - Image upload storage
-- MongoDB - User information & record storage
+- Axios - Make promise AJAX requests
+- Body-parser - Simplified request bodies
+- Celebrate - User input validation
+- Climacell - API for weather information
+- CORS - Cross origin request support
+- Connect-mongo - session data store functionality
+- Cron - Automatic monthly reports/'Cron jobs'
+- Dotenv - Access .env variables
 - Express.js - Back-end server
 - Express-session - session storage functionality
-- Connect-mongo - session data store functionality
-- Lodash - Various general helper methods
-- Nodemon - Live-server monitoring
-- React - Front-end view rendering & geo-location services
-- Node.js - Javascript environment to run backend
 - Heroku - Deployment of web server
-- MongoDB Atlas - MongoDB cloud hosting
-- Body-parser - Simplified request bodies
 - Jest - Testing
-- CORS - Cross origin request support
-- Mongoose - Create model schemas and query MongoDB
-- Dotenv - Access .env variables
-- Mongoose-bcrypt - Encrypt passwords in MongoDB
-- Celebrate - User input validation
 - JWT - JSON web token functionality
+- Lodash - Various general helper methods
+- Material UI - Styling framework
+- MongoDB - User information & record storage
+- MongoDB Atlas - MongoDB cloud hosting
+- Mongoose - Create model schemas and query MongoDB
+- Mongoose-bcrypt - Encrypt passwords in MongoDB
+- Node.js - Javascript environment to run backend
+- Nodemon - Live-server monitoring
+- Open Weather - API for weather information
 - Passport - Authenticate requests
-- Axios - Make promise AJAX requests
-- Cron - Automatic monthly reports/'Cron jobs'
+- React - Front-end view rendering & geo-location services
 - React-dom - Connects React to the browser DOM
 - React-router-dom - Enables React single-page refresh routing
 - React-redux - Connect React and Redux
 - Redux - Internal data functionality
-- Material UI - Styling framework
-- Open Weather - API for weather information
-- Climacell - API for weather information
 
 ## Data flow diagram
 
