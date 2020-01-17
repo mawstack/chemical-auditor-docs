@@ -1,10 +1,12 @@
 # Chemical Auditor Documentation
 
-## Website Description
+### Website Description
 
 Client: SSS Strawberries
 Address: Lot 2 Rosedale Road Oakwood QLD 4670
 Contact Name: Ijan Kruizinga
+
+#
 
 ### Purpose
 
@@ -12,18 +14,29 @@ Due to the use of herbicides and pesticides on farms, and the resulting environm
 
 The benefits this application could bring to the farm include a streamlining of the record-keeping process, addition of photographic evidence, as well as increased transparency, efficiency and data security.
 
+#
+
 ### Features
 
-- Login system distinguishing regular employee/administrator permissions
-- Report generation, when requested/at timed intervals
-- Chemical Tracking information - Weather, GPS/manual location, time/date, chemical information, reason for use and amount used etc.
-- Attach photographs to reports
-- Secure storage for all information
+#### User Requirements
 
-#### Flex-goal Features
+- Login system distinguishing regular employee/administrator permissions, utilising email & password.
+- Admin accounts with ability to create, edit and delete user accounts, as well as record, edit, delete and export the records/entries.
 
-  - Admins can approve regular employee entries/edits
-  - Progressive Web App
+#### Functional Requirements
+
+- Mobile (Android/IOS) and Tablet interface.
+- Offline capabilities/Progressive Web App (Stretch Goal).
+
+#### System Features
+
+- Full CRUD report resources.
+- Generate audit log using reports.
+- Print/export audit log to PDF / .CSV.
+- Take/delete photos of chemicals.
+- Add/edit notes on reports.
+- Add/edit/delete Farm Locations (bays recorded as letters, A/B/C etc.)
+- A record of audit logs must be backed up in event of a system failure.
 
 ### Target Audience
 
@@ -61,13 +74,19 @@ The benefits this application could bring to the farm include a streamlining of 
 - react-router-dom - enables React single-page refresh routing
 - redux - internal data functionality
 
+#
+
 ## Data flow diagram
 
 ![data flow diagram](./Data_Flow.png)
 
+#
+
 ## Application Architecture Diagram
 
 ![application architecture diagram](./Application_Architecture_Diagram.png)
+
+#
 
 ## User Stories
 
@@ -97,6 +116,8 @@ The benefits this application could bring to the farm include a streamlining of 
 - As an auditor, I need to be able to easily read and understand the new format of audit reports, with them following the current design pattern to ensure confusion is minimized.
 - As an auditor, I need to be sure all legal requirements are met regarding information integrity.
 
+#
+
 ## Wireframes
 
 ### Dashboard
@@ -122,6 +143,8 @@ The benefits this application could bring to the farm include a streamlining of 
 ![view entry page mobile wireframe](./Wireframes/viewEntry-mobile.png)
 ![view entry page tablet wireframe](./Wireframes/viewEntry-tablet.png)
 ![view entry page desktop wireframe](./Wireframes/viewEntry-desk.png)
+
+#
 
 ## Trello board screenshots
 
