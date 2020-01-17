@@ -88,6 +88,10 @@ The benefits this application could bring to the farm include a streamlining of 
 
 ## User Stories
 
+### Development Introduction
+
+While developing our personas and user stories, we moved through multiple iterations in order to find stories we found accurately displayed the features we were after. Initially, we had a large number of user stories that lacked specific direction, and as such, we decided to segment them within four different 'epics', which allowed us to further focus each story to an individual feature within the context of each epic. Once this was done, we discussed the required features and expected benefits with our client, further defining each of our stories, to a point where we decided that they were as accurate as possible with the proposed feature set.
+
 ### As a seasonal worker, I need to easily understand and use the application with little extra training.
 
 - As Hamish the seasonal worker, I need to be able to easily approach and understand the application, ensuring I can fulfil my job roles with little extra training.
