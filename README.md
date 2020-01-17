@@ -6,11 +6,15 @@ Client: SSS Strawberries
 Address: Lot 2 Rosedale Road Oakwood QLD 4670
 Contact Name: Ijan Kruizinga
 
+#
+
 ### Purpose
 
 Due to the use of herbicides and pesticides on farms, and the resulting environmental impacts, audit trails are kept to ensure quality assurance requirements for pre-harvest chemical applications. The purpose of our application is to allow chemical-distributing farm workers to easily record all relevant information, moving the farm towards more efficient and environmentally friendly (fully digital) record keeping. The application will also allow the generation of reports for use by farm managers in auditing meetings.
 
 The benefits this application could bring to the farm include a streamlining of the record-keeping process, addition of photographic evidence, as well as increased transparency, efficiency and data security.
+
+#
 
 ### Features
 
@@ -34,7 +38,9 @@ The benefits this application could bring to the farm include a streamlining of 
 - Add/edit/delete Farm Locations (bays recorded as letters, A/B/C etc.)
 - A record of audit logs must be backed up in event of a system failure.
 
-### Proposed Tech Stack
+#
+
+## Proposed Tech Stack
 
 - AWS - Image upload storage
 - Axios - Make promise AJAX requests
@@ -66,13 +72,19 @@ The benefits this application could bring to the farm include a streamlining of 
 - React-redux - Connect React and Redux
 - Redux - Internal data functionality
 
+#
+
 ## Data flow diagram
 
 ![data flow diagram](./docs/Data_Flow.png)
 
+#
+
 ## Application Architecture Diagram
 
 ![application architecture diagram](./docs/Application_Architecture_Diagram.png)
+
+#
 
 ## User Stories
 
@@ -102,6 +114,8 @@ The benefits this application could bring to the farm include a streamlining of 
 - As an auditor, I need to be able to easily read and understand the new format of audit reports, with them following the current design pattern to ensure confusion is minimized.
 - As an auditor, I need to be sure all legal requirements are met regarding information integrity.
 
+#
+
 ## Wireframes
 
 ### Dashboard
@@ -119,6 +133,8 @@ The benefits this application could bring to the farm include a streamlining of 
 ### View Entry
 
 ![view entry wireframe](./docs/wireframes/ViewEntry.png)
+
+#
 
 ## Trello board screenshots
 
