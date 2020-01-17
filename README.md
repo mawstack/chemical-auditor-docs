@@ -34,34 +34,33 @@ The benefits this application could bring to the farm include a streamlining of 
 
 - AWS - Image upload storage
 - MongoDB - User information & record storage
-- express - Back-end server
-- express-session - session storage functionality
-- connect-mongo - session data store functionaliy
-- lodash - general helper methods
-- nodemon - Live-server monitoring
-- React - Front-end view rendering & geolocation services
-- Node - Database
-- Heroku - deployment of webserver
-- MongoDB - User information & record storage
-- Cloud Atlas - MongoDB hosting
-- body-parser - simplified request bodies
-- jest - testing
-- cors - cross origin request support
-- mongoose - create model schemas and query mongoDB
-- dotenv - access .env variables
-- mongoose-bcrypt - encrypt passwords in mongoDB
-- celebrate - user input validation
-- jwt - json web token functionality
-- passport - authenticate requests
-- axios - make promise AJAX requests
-- cron - automatic monthly reports
-- react-dom - connects React to the browser DOM
-- react-router-dom - enables React single-page refresh routing
-- react-redux - connect React and Redux
-- redux - internal data functionality
-- Material UI - styling framework
-- Open Weather - api for weather information
-- Climacell - api for weather information
+- Express.js - Back-end server
+- Express-session - session storage functionality
+- Connect-mongo - session data store functionality
+- Lodash - Various general helper methods
+- Nodemon - Live-server monitoring
+- React - Front-end view rendering & geo-location services
+- Node.js - Javascript environment to run backend
+- Heroku - Deployment of web server
+- MongoDB Atlas - MongoDB cloud hosting
+- Body-parser - Simplified request bodies
+- Jest - Testing
+- CORS - Cross origin request support
+- Mongoose - Create model schemas and query MongoDB
+- Dotenv - Access .env variables
+- Mongoose-bcrypt - Encrypt passwords in MongoDB
+- Celebrate - User input validation
+- JWT - JSON web token functionality
+- Passport - Authenticate requests
+- Axios - Make promise AJAX requests
+- Cron - Automatic monthly reports/'Cron jobs'
+- React-dom - Connects React to the browser DOM
+- React-router-dom - Enables React single-page refresh routing
+- React-redux - Connect React and Redux
+- Redux - Internal data functionality
+- Material UI - Styling framework
+- Open Weather - API for weather information
+- Climacell - API for weather information
 
 ## Data flow diagram
 
