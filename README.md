@@ -30,7 +30,7 @@ The benefits this application could bring to the farm include a streamlining of 
 - Farm employees - creating individual records in the field
 - Farm managers - generating full reports in the office, comprising a designated timeframes' worth of employee records
 
-### Tech Stack
+### Proposed Tech Stack
 
 - AWS - Image upload storage
 - MongoDB - User information & record storage
@@ -65,11 +65,11 @@ The benefits this application could bring to the farm include a streamlining of 
 
 ## Data flow diagram
 
-![data flow diagram](./Data_Flow.png)
+![data flow diagram](./docs/Data_Flow.png)
 
 ## Application Architecture Diagram
 
-![application architecture diagram](./Application_Architecture_Diagram.png)
+![application architecture diagram](./docs/Application_Architecture_Diagram.png)
 
 ## User Stories
 
@@ -103,23 +103,23 @@ The benefits this application could bring to the farm include a streamlining of 
 
 ### Dashboard
 
-![dashboard wireframe](./Wireframes/Dashboard.png)
+![dashboard wireframe](./docs/wireframes/Dashboard.png)
 
 ### Login
 
-![login wireframe](./Wireframes/Login.png)
+![login wireframe](./docs/wireframes/Login.png)
 
 ### New Entry
 
-![new entry wireframe](./Wireframes/CreateEntry.png)
+![new entry wireframe](./docs/wireframes/CreateEntry.png)
 
 ### View Entry
 
-![view entry wireframe](./Wireframes/ViewEntry.png)
+![view entry wireframe](./docs/wireframes/ViewEntry.png)
 
 ## Trello board screenshots
 
-![trello board screenshot 1](./Screenshots/1.PNG)
-![trello board screenshot 2](./Screenshots/2.PNG)
-![trello board screenshot 3](./Screenshots/3.PNG)
-![trello board screenshot 4](./Screenshots/4.PNG)
+![trello board screenshot 1](./docs/trello/trello1.PNG)
+![trello board screenshot 2](./docs/trello/trello2.PNG)
+![trello board screenshot 3](./docs/trello/trello3.PNG)
+![trello board screenshot 4](./docs/trello/trello4.PNG)
